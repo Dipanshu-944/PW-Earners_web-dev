@@ -1,0 +1,40 @@
+h1{
+    background-color: rgb(203, 61, 61);
+}
+
+#wrapper{
+    /* we can smoothly transform colors and also select teh directions */
+    /* background: linear-gradient(to right,red,yellow); */
+    /* background: linear-gradient(red,yellow); */
+    /* background: linear-gradient(45deg,red,yellow,skyblue,blue); */
+
+    /* background: radial-gradient(red,green); */
+
+    /* background: conic-gradient(red,green); */
+
+    /* background-image: url(https://th.bing.com/th/id/OIP.-YIfP_qUxcIhzF0PZEXhZQHaE8?w=280&h=187&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3); */
+    /* border: 1px solid black; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: contain; */
+
+
+    /* border: 10px solid greenyellow; */
+    /* border-radius: 50px; */
+
+    /* padding: 50px; */
+    /* padding-bottom: 20px; */
+    /* padding: 0 0 40px 40px; */
+    /* padding: 40 0 40; */
+    
+
+    /* margin-top: 20px; */
+    /* margin: auto; */
+    
+    box-sizing: border-box;
+
+
+
+    height: 500px;
+
+}

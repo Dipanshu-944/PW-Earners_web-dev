@@ -1,0 +1,85 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.move {
+     width: 100%;
+    height: 100px;
+    color: black;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(red, rgb(0, 255, 0));
+    background-clip: text;
+    color:  transparent;
+    gap: 10px;
+
+    animation-name: amazon;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes amazon {
+    from {
+        transform: translateX(100%);
+    }to {
+        
+        transform: translateX(-100%);
+        
+        }
+        } */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width:  100%;
+}
+
+body{
+    overflow-x: hidden;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.move {
+    display: flex;
+    width: max-content;
+    gap: 100px;
+    padding: 20px 0;
+
+    font-size: 3rem;
+    font-weight: 700;
+
+    background: linear-gradient(red, lime);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    
+
+    animation-direction: alternate;
+    animation: amazon 10s linear infinite;
+}
+
+
+
+@keyframes amazon {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}

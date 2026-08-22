@@ -1,0 +1,18 @@
+label {
+    display: inline-block;
+    width: 120px;
+    
+}
+input {
+    width: 300px;
+    
+}
+.container{
+    display: flex;
+    
+}
+
+.mainbody {
+    border: 2px solid rgb(255, 117, 117);
+    background-color: rgb(255, 209, 124);
+}
