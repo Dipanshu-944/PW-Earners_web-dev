@@ -22,3 +22,30 @@ switch (grade) {
   default:
     console.log("Invalid input");
 }
+
+const marks = 101
+
+switch (true) {
+
+  case marks > 90 && marks <= 100:
+  console.log("A");
+  break;
+  case marks > 80 && marks <= 90 :
+  console.log("B");
+  break;
+  case marks > 70 && marks <= 80 :
+  console.log("C");
+  break;
+  case marks > 60 && marks <= 70 :
+  console.log("D");
+  break;
+  case marks > 50 && marks <= 60 :
+  console.log("E");
+  break;
+  case marks >= 0 && marks <= 50 :
+  console.log("Fail");
+  break;
+  default :
+  console.log("Invalid")
+}
+

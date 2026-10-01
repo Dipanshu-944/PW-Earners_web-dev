@@ -1,10 +1,14 @@
-// let anshu = 45 + 45 + 76;
+let anshu = 45 + 45 + 76;
 
-// function totalmarks(name ,math , science , english){
-//     console.log(`this, ${name}`, math + science + english)
-// }
+function totalmarks(name ,math , science , english){
+    console.log(`this is ${name}`, math + science + english)
+}
+function marks(name, math, science){
+  console.log(`${name}`, math + science)
+}
+marks("dipanshu's total = ", 45, 56)
 
-// totalmarks("anshu marks:",45 , 45, 76);
+totalmarks("anshu marks: ", 45, 45, 76);
 // totalmarks("ansh marks:",45 , 76, 76);
 // totalmarks("dipanshu marks:",65 , 47, 76);
 // totalmarks("aniii marks:",75 , 55, 76);
@@ -67,14 +71,14 @@
 // arrow function -------
 
 // syntax 1
-let sum = num1 => num1 + 4;
+// let sum = num1 => num1 + 4;
 
 // syntax 2 by default return
-let adda = (num1 ,num2) => num1 + num2;
+// let adda = (num1 ,num2) => num1 + num2;
 
 // syntax 3 here you have to give return values
-let add = (num1, num2) => {
-    // somethings anythings
-  return num1 + num2;
-};
-console.log(add(5, 6));
+// let add = (num1, num2) => {
+//     somethings anythings
+//   return num1 + num2;
+// };
+// console.log(add(5, 6));

@@ -26,3 +26,4 @@ switch (day) {
   default:
     console.log("wrong day");
 }
+

@@ -15,11 +15,11 @@ console.log("a = ", a);
 
 const b = 2;
 console.log("b = ",b)
-// re-declaration not allowed, no updation
+//updation and re-declaration not allowed
 
 
 name = "dipanshu";
-// console.log(name);
+console.log(name);
 
 
 // data types
@@ -32,8 +32,9 @@ console.log(mobileNo);
 
 
 const doubleQuote = "hi dipanshu";
-const singleQuote = "hi dipanshu";
+const singleQuote = 'hi dipanshu';
 console.log(doubleQuote);
+console.log(singleQuote);
 // both work same quotes
 
 
